@@ -1,0 +1,27 @@
+{
+  "name": "km-home-finances",
+  "main": [
+    "/dist/km-home-finances.js",
+    "/dist/km-home-finances.css"
+  ],
+  "version": "0.1.0",
+  "description": "TODO",
+  "authors": [
+    "TODO"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.2.4",
+    "angular-route": "~1.2.4",
+    "restangular": "~1.2.0"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.4"
+  }
+}

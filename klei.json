@@ -1,0 +1,4 @@
+{
+  "name": "homeFinances",
+  "parts": ["express", "mongo", "angular", "stylus"]
+}

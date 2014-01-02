@@ -1,4 +1,4 @@
 home-finances
 =============
 
-Control money spending by organizing and planning.
+Control money spending by organizing and planning. 

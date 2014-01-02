@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html ng-app="homeFinances">
+  <head>
+    <meta charset="utf-8"/>
+    <title>homeFinances</title>
+    <!-- injector:bower:css -->
+    <!-- endinjector -->
+    <!-- injector:css -->
+    <link rel="stylesheet" href="/css/homeFinances.css">
+    <!-- endinjector -->
+  </head>
+  <body>
+    <hgroup>
+      <h1>homeFinances</h1>
+      <h2>Your new klei module is now ready...</h2>
+    </hgroup>
+    <ng-view></ng-view>
+    <!-- injector:bower:js -->
+    <script src="/angular/angular.js"></script>
+    <script src="/angular-route/angular-route.js"></script>
+    <script src="/lodash/dist/lodash.compat.js"></script>
+    <script src="/restangular/dist/restangular.min.js"></script>
+    <!-- endinjector -->
+    <!-- injector:js -->
+    <script src="/homeFinances.js"></script>
+    <!-- endinjector -->
+  </body>
+</html>
